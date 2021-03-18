@@ -1,0 +1,131 @@
+.post-container {
+    width: 100%;
+    margin-bottom: 20px;
+    
+    padding: 20px;
+    border-radius: 3px;
+    display: flex;
+    -webkit-box-shadow: 0px 4px 15px -3px rgba(0,0,0,0.28); 
+    box-shadow: 0px 4px 15px -3px rgba(0,0,0,0.28);
+}
+
+.post-content {
+    padding-left: 20px;
+    width: 100%
+}
+
+.post-content > p {
+    font-size: 12px
+}
+
+.post-content > hr {
+    width: 100%;
+    margin-top: 10px;
+    border-color: #eaeaea;
+    opacity: 0.3;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.link:visited, .link:link {
+    color: black
+}
+
+.post-votes {
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.post-votes > p {
+    margin: 3px 0px;
+}
+
+.post-image > img {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 7px;
+}
+
+.post-details {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+.post-content > hr {
+    margin-bottom: 10px;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+
+.user > p {
+    color: #fa4502;
+    font-weight: bold;
+}
+
+.user > img {
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 7px;
+}
+
+.date-comments-container {
+    display: flex;
+    align-items: center;
+}
+
+.comments {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.comments > p {
+    margin-left: 3px;
+}
+
+.comments-icon:hover {
+    background-color: #eaeaea;
+    transition: background-color 150ms ease-in-out;
+}
+
+@media only screen and (max-width: 600px) {
+    .post-votes {
+        width: 20px;
+        font-size: 11px;
+    }
+
+    .post-content {
+        padding-left: 15px;
+    }
+
+    .post-content > h2 {
+        font-size: 15px;
+    }
+
+    .post-container {
+        padding: 15px;
+    }
+
+    .post-details {
+        font-size: 11px;
+    }
+
+    .user > img {
+        height: 20px;
+    }
+
+    .feed {
+        padding: 10px !important
+    }
+  }

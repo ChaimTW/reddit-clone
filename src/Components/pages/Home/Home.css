@@ -1,0 +1,25 @@
+.home {
+    display: flex;
+}
+
+.feed {
+    flex: 0.72;
+    padding: 20px;
+}
+
+.subreddits {
+    flex: 0.28;
+    padding: 20px 0px;
+}
+
+.spinner {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px
+}
+
+@media only screen and (max-width: 600px) {
+    .home {
+        flex-direction: column;
+    }
+  }

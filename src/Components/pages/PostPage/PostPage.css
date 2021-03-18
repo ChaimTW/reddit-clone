@@ -1,0 +1,21 @@
+.post-page-container {
+    display: flex
+}
+
+.post-page-spinner {
+    flex: 0.72;
+    margin-top: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.post-page-subreddits {
+    flex: 0.28;
+    padding: 20px 0px;
+}
+
+.post-page-content {
+    flex: 0.72;
+    padding: 20px;
+}
